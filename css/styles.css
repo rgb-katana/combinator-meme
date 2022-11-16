@@ -84,6 +84,23 @@ body {
   padding-top: 3px;
 }
 
+.move--right-1 {
+  padding-bottom: 2px;
+}
+
+.move--left-1 {
+  padding-bottom: 2px;
+}
+
+.boold {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.itaalic {
+  font-style: italic;
+}
+
 .handle:first-of-type {
   background-color: black;
   width: 30px;
