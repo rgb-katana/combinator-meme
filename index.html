@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script defer src="./script.js"></script>
-        <link rel="stylesheet" href="css/styles.css" />
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="starter">
-            <h1 class="greeting">
-                ЗАГРУЗИ КАРТИНКУ<br />ЧТОБЫ НАЧАТЬ<br /><span class=""
-                    >КОМБИНИРОВАТЬ</span
-                >
-            </h1>
-            <input
-                type="file"
-                id="image-input"
-                accept="image/jpeg, image/png, image/jpg"
-            />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="starter">
+      <h1 class="greeting">
+        ЗАГРУЗИ КАРТИНКУ<br />ЧТОБЫ НАЧАТЬ<br /><span class=""
+          >КОМБИНИРОВАТЬ</span
+        >
+      </h1>
+      <input
+        type="file"
+        id="image-input"
+        accept="image/jpeg, image/png, image/jpg"
+      />
+    </div>
+    <div class="hidden" id="display-image">
+      <div class="caption hidden">
+        <div class="caption--handler">
+          <div class="handle mover move--up-1">&#8593;</div>
+          <div class="handle mover move--down-1">&#8595;</div>
+          <div class="handle mover move--up-10">&#8648;</div>
+          <div class="handle mover move--down-10">&#8650;</div>
+          <div class="handle fonter font--bold">&#119809;</div>
+          <div class="handle fonter font--regular">&#114;</div>
+          <div class="handle fonter font--italic">&#8520;</div>
+          <div class="handle fonter font--thin">&#116;</div>
+          <div class="handle finish">&#10003;</div>
         </div>
-        <div class="hidden" id="display-image">
-            <img
+        <span class="combinator">КОМБИНАТОР</span>
+      </div>
+      <!-- <img
                 class="hidden logo"
                 src="./images/combi.jpeg"
                 alt="combinator"
-            />
-        </div>
-    </body>
+            /> -->
+    </div>
+  </body>
 </html>

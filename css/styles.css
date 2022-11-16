@@ -1,47 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
 }
 
 .starter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 #display-image {
-    width: 350px;
-    height: 600px;
-    border: 1px solid black;
-    background-position: center;
-    background-size: cover;
+  width: 350px;
+  height: 600px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
 }
 
 .greeting {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-.logo {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
+.caption {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  font-size: 39px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+
+.caption--handler {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.handle {
+  background-color: black;
+  width: 30px;
+  height: 25px;
+  border: 0.5px solid white;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.move--up-1 {
+  padding-bottom: 4px;
+}
+
+.move--down-1 {
+  padding-bottom: 4px;
+}
+
+.move--up-10 {
+  padding-top: 3px;
+}
+
+.move--down-10 {
+  padding-top: 3px;
+}
+
+.handle:first-of-type {
+  background-color: black;
+  width: 30px;
+  height: 25px;
+  border-left: 1px solid white;
+}
+
+.handle:last-of-type {
+  background-color: black;
+  width: 30px;
+  height: 25px;
+  border-right: 1px solid white;
 }
